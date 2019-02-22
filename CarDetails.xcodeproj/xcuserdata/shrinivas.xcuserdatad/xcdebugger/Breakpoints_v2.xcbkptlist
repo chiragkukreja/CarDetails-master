@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/View/CarManufacturerViewController.swift"
-            timestampString = "572536959.797539"
+            timestampString = "572537831.3257771"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -24,7 +24,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/View/CarManufacturerViewController.swift"
-            timestampString = "572536959.797976"
+            timestampString = "572537831.325847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -38,7 +38,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/View/CarManufacturerViewController.swift"
-            timestampString = "572536959.798216"
+            timestampString = "572537831.325899"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -100,7 +100,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572529069.276098"
+            timestampString = "572537831.326012"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -116,7 +116,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572529069.276154"
+            timestampString = "572537831.326084"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -132,7 +132,7 @@
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572533640.563382"
+                  timestampString = "572537765.456154"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
@@ -147,7 +147,7 @@
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572533640.565403"
+                  timestampString = "572537765.459639"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -164,7 +164,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572529069.276224"
+            timestampString = "572537831.32614"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -180,7 +180,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572529069.276264"
+            timestampString = "572537831.326192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -196,7 +196,7 @@
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572533640.575971"
+                  timestampString = "572537765.479411"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "51"
@@ -211,7 +211,7 @@
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572533640.57789"
+                  timestampString = "572537765.482968"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "51"
@@ -219,6 +219,20 @@
                   offsetFromSymbolStart = "34">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CarDetailsTests/CarDetailsTests.swift"
+            timestampString = "572537726.29353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

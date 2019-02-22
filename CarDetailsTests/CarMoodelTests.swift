@@ -9,7 +9,7 @@
 import XCTest
 @testable import CarDetails
 
-class CarDetailsTests: XCTestCase, RouterDelegate {
+class CarMoodelTests: XCTestCase, RouterDelegate {
 
     private var viewModel: CarModelViewModel!
     private var carModelExpectation: XCTestExpectation!

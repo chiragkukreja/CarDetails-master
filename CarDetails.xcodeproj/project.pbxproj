@@ -32,7 +32,7 @@
 		4D9C034A221366B500BD9B73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C0348221366B500BD9B73 /* Main.storyboard */; };
 		4D9C034C221366B800BD9B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C034B221366B800BD9B73 /* Assets.xcassets */; };
 		4D9C034F221366B800BD9B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D9C034D221366B800BD9B73 /* LaunchScreen.storyboard */; };
-		4D9C035A221366B800BD9B73 /* CarDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C0359221366B800BD9B73 /* CarDetailsTests.swift */; };
+		4D9C035A221366B800BD9B73 /* CarMoodelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C0359221366B800BD9B73 /* CarMoodelTests.swift */; };
 		4D9C036A2213697F00BD9B73 /* CarManufacturerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C03692213697F00BD9B73 /* CarManufacturerViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -75,7 +75,7 @@
 		4D9C034E221366B800BD9B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D9C0350221366B800BD9B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9C0355221366B800BD9B73 /* CarDetailsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarDetailsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D9C0359221366B800BD9B73 /* CarDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailsTests.swift; sourceTree = "<group>"; };
+		4D9C0359221366B800BD9B73 /* CarMoodelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMoodelTests.swift; sourceTree = "<group>"; };
 		4D9C035B221366B800BD9B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D9C03692213697F00BD9B73 /* CarManufacturerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarManufacturerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,7 +213,7 @@
 		4D9C0358221366B800BD9B73 /* CarDetailsTests */ = {
 			isa = PBXGroup;
 			children = (
-				4D9C0359221366B800BD9B73 /* CarDetailsTests.swift */,
+				4D9C0359221366B800BD9B73 /* CarMoodelTests.swift */,
 				4D9C035B221366B800BD9B73 /* Info.plist */,
 				259BC41A221D7EBA00B40D28 /* NetworkLayerTests.swift */,
 				259BC41C221D891300B40D28 /* CarManufacturerTests.swift */,
@@ -362,7 +362,7 @@
 			files = (
 				259BC41D221D891300B40D28 /* CarManufacturerTests.swift in Sources */,
 				259BC41B221D7EBA00B40D28 /* NetworkLayerTests.swift in Sources */,
-				4D9C035A221366B800BD9B73 /* CarDetailsTests.swift in Sources */,
+				4D9C035A221366B800BD9B73 /* CarMoodelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
