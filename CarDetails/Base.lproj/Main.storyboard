@@ -18,13 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="RG4-bO-tl4">
-                                <rect key="frame" x="167.5" y="313.5" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="4J4-jB-sDa"/>
-                                    <constraint firstAttribute="width" constant="40" id="NQQ-zY-YLg"/>
-                                </constraints>
-                            </activityIndicatorView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lSa-6M-Nf8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -36,18 +29,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="RG4-bO-tl4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Xy-SG-w7b"/>
                             <constraint firstItem="lSa-6M-Nf8" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="XVs-It-Blx"/>
                             <constraint firstItem="lSa-6M-Nf8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cXM-aQ-sNV"/>
                             <constraint firstItem="lSa-6M-Nf8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cbH-pT-v8S"/>
-                            <constraint firstItem="RG4-bO-tl4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hVZ-cX-qaF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lSa-6M-Nf8" secondAttribute="bottom" id="qqx-0h-khc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="1mn-h1-V3u"/>
                     <connections>
-                        <outlet property="activityIndicator" destination="RG4-bO-tl4" id="pUO-8p-q2m"/>
                         <outlet property="tableView" destination="lSa-6M-Nf8" id="rbq-hp-nzN"/>
                         <outlet property="view" destination="8bC-Xf-vdC" id="d7i-8g-XYe"/>
                     </connections>
@@ -64,13 +54,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="ffl-Cr-6rF">
-                                <rect key="frame" x="167.5" y="313.5" width="40" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="6w3-3M-kQ1"/>
-                                    <constraint firstAttribute="height" constant="40" id="d9Y-Dk-2yx"/>
-                                </constraints>
-                            </activityIndicatorView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1pv-4K-gVb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -82,17 +65,14 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ffl-Cr-6rF" firstAttribute="centerY" secondItem="1ZF-5T-mby" secondAttribute="centerY" id="0xB-jN-qDT"/>
                             <constraint firstItem="1pv-4K-gVb" firstAttribute="top" secondItem="1ZF-5T-mby" secondAttribute="top" id="4oM-3W-Fbi"/>
                             <constraint firstItem="1pv-4K-gVb" firstAttribute="bottom" secondItem="VMv-6J-Qwl" secondAttribute="bottom" id="Flh-3g-Mw1"/>
                             <constraint firstItem="1pv-4K-gVb" firstAttribute="trailing" secondItem="VMv-6J-Qwl" secondAttribute="trailing" id="Vjp-Z7-Wwg"/>
-                            <constraint firstItem="ffl-Cr-6rF" firstAttribute="centerX" secondItem="1ZF-5T-mby" secondAttribute="centerX" id="Xup-Ye-L6y"/>
                             <constraint firstItem="1pv-4K-gVb" firstAttribute="leading" secondItem="VMv-6J-Qwl" secondAttribute="leading" id="grM-kn-MJs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VMv-6J-Qwl"/>
                     </view>
                     <connections>
-                        <outlet property="activityIndicator" destination="ffl-Cr-6rF" id="21Q-AV-C5e"/>
                         <outlet property="tableView" destination="1pv-4K-gVb" id="uM7-nn-e1F"/>
                     </connections>
                 </viewController>

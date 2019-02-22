@@ -18,7 +18,7 @@ class CarManufacturerTests: XCTestCase, RouterDelegate {
     override func setUp() {
         super.setUp()
         viewModel = CarManufacturerViewModel(apiService: Router<CarApi>())
-        viewModel.delegate = self
+        viewModel.delegate = self       
     }
     
     override func tearDown() {

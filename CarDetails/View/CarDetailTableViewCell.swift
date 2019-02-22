@@ -2,7 +2,7 @@
 //  CarDetailTableViewCell.swift
 //  CarDetails
 //
-//  Created by Shrinivas on 2/18/19.
+//  Created by Chirag Kukreja  on 2/18/19.
 //  Copyright © 2019 Chirag Kukreja. All rights reserved.
 //
 

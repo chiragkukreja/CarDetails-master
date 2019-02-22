@@ -11,8 +11,6 @@ import UIKit
 class CarModelsViewViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
-    
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     var viewModel: CarModelViewModel!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,7 +18,6 @@ class CarModelsViewViewController: UIViewController {
         tableView.register(CarDetailTableViewCell.self)
         viewModel.getCarModels()
     }
-
 }
 extension CarModelsViewViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

@@ -9,26 +9,32 @@
 import XCTest
 @testable import CarDetails
 
-class CarDetailsTests: XCTestCase {
+class CarDetailsTests: XCTestCase, RouterDelegate {
+
+    private var viewModel: CarModelViewModel!
+    private var carModelExpectation: XCTestExpectation!
 
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        super.setUp()
+        let detail = keyValuePair.init(id: "130", name: "BMW")
+        viewModel = CarModelViewModel(apiService: Router<CarApi>(), manufacturerDetail: detail)
+        viewModel.delegate = self
     }
 
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+    func testsModelList() {
+        carModelExpectation = expectation(description: "Model List")
+        viewModel.getCarModels()
+        wait(for: [carModelExpectation], timeout: 10)
+        XCTAssertTrue(viewModel.totalItems > 0)
     }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func onFetchCompleted(indexpathsToInsert: [IndexPath]?) {
+        carModelExpectation.fulfill()
     }
-
+    func onFetchError() {
+        carModelExpectation.fulfill()
+    }
 }

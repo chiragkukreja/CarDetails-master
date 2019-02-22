@@ -20,7 +20,6 @@ extension Reusable where Self: UIView {
         return String(describing: self)
     }
 }
-
 extension UITableView {
     func register<T: UITableViewCell>(_: T.Type) where T: Reusable {
         let bundle = Bundle(for: T.self)

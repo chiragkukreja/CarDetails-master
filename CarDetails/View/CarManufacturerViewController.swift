@@ -12,14 +12,12 @@ class CarManufacturerViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     var viewModel: CarManufacturerViewModel!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Manufacturers"
         viewModel = CarManufacturerViewModel.init(apiService: Router<CarApi>())
         viewModel.delegate = self
-        activityIndicator.startAnimating()
         viewModel.getCarManufactures()
         tableView.register(CarDetailTableViewCell.self)
     }
@@ -36,7 +34,7 @@ extension CarManufacturerViewController: UITableViewDataSource, UITableViewDeleg
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.lightGray
         } else {
-            cell.backgroundColor = UIColor.gray
+            cell.backgroundColor = UIColor.white
         }
         cell.selectionStyle = .none
         if indexPath.row  == viewModel.totalItems - 4 {
