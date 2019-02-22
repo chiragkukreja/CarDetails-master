@@ -61,8 +61,8 @@ extension CarManufacturerViewController: RouterDelegate {
             tableView.reloadData()
         }
     }
-    
     func onFetchError() {
-        
+        let action = UIAlertAction.init(title: "OK", style: .default)
+        displayAlert(with: "Error", message: "Unable to get details", actions: [action])
     }
 }

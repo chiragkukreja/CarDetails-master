@@ -30,10 +30,10 @@ class CarManufacturerTests: XCTestCase, RouterDelegate {
         wait(for: [manufacturerExpectation], timeout: 10)
         XCTAssertTrue(viewModel.totalItems > 0)
     }
-    func onFetchError() {
-        manufacturerExpectation.fulfill()
+    func onFetchCompleted(indexpathsToInsert: [IndexPath]?) {
+         manufacturerExpectation.fulfill()
     }
-    func onFetchCompleted() {
+    func onFetchError() {
         manufacturerExpectation.fulfill()
     }
 }

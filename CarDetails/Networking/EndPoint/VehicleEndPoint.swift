@@ -30,7 +30,6 @@ extension CarApi: EndPointType {
             
         case .model:
             return "v1/car-types/main-types"
-            
         }
     }
     
@@ -56,7 +55,6 @@ extension CarApi: EndPointType {
             
         }
     }
-    
     var headers: HTTPHeaders? {
         return nil
     }

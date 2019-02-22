@@ -10,13 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/View/CarManufacturerViewController.swift"
-            timestampString = "572369181.0445729"
+            timestampString = "572514534.295792"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
-            landmarkName = "onFetchCompleted(indexpathsToInsert:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -26,13 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/View/CarManufacturerViewController.swift"
-            timestampString = "572369181.04529"
+            timestampString = "572514534.295857"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "tableView(_:numberOfRowsInSection:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -42,13 +38,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/View/CarManufacturerViewController.swift"
-            timestampString = "572369181.045615"
+            timestampString = "572514534.295904"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
+            startingLineNumber = "69"
+            endingLineNumber = "69">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -58,61 +52,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/ViewModel/CarManufacturerViewModel.swift"
-            timestampString = "572369181.046204"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "getCarManufactures()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CarDetails/ViewModel/CarManufacturerViewModel.swift"
-            timestampString = "572369181.0463099"
+            timestampString = "572385579.4717439"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
             landmarkName = "getCarManufactures()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CarDetails.CarManufacturerViewModel.getCarManufactures() -&gt; ()"
-                  moduleName = "CarDetails"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shrinivas/Downloads/CarDetails-master/CarDetails/ViewModel/CarManufacturerViewModel.swift"
-                  timestampString = "572355318.0848"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "148">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (CarDetails.CarDetails) -&gt; () in CarDetails.CarManufacturerViewModel.getCarManufactures() -&gt; ()"
-                  moduleName = "CarDetails"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shrinivas/Downloads/CarDetails-master/CarDetails/ViewModel/CarManufacturerViewModel.swift"
-                  timestampString = "572355318.0876729"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
-                  offsetFromSymbolStart = "60">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,7 +68,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/ViewModel/CarManufacturerViewModel.swift"
-            timestampString = "572369181.046418"
+            timestampString = "572385579.471799"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "45"
@@ -138,7 +84,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/ViewModel/CarManufacturerViewModel.swift"
-            timestampString = "572369181.046542"
+            timestampString = "572385579.471849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
@@ -154,7 +100,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572361334.9566441"
+            timestampString = "572514534.296002"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "35"
@@ -170,7 +116,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572361334.9573981"
+            timestampString = "572514534.296052"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "43"
@@ -185,13 +131,13 @@
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CarDetails.Router.request&lt;A where A1: Swift.Decodable, A1: Swift.Encodable&gt;(_: A, mapToModel: A1.Type, onSuccess: (A1) -&gt; (), onError: (Swift.Error) -&gt; ()) -&gt; ()"
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shrinivas/Downloads/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572355318.1117049"
+                  urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
+                  timestampString = "572513897.328752"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "43"
                   endingLineNumber = "43"
-                  offsetFromSymbolStart = "2251">
+                  offsetFromSymbolStart = "1735">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -200,8 +146,8 @@
                   symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CarDetails.Router.request&lt;A where A1: Swift.Decodable, A1: Swift.Encodable&gt;(_: A, mapToModel: A1.Type, onSuccess: (A1) -&gt; (), onError: (Swift.Error) -&gt; ()) -&gt; ()"
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shrinivas/Downloads/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572355318.113851"
+                  urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
+                  timestampString = "572513897.3340321"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "44"
@@ -218,7 +164,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572361334.9575649"
+            timestampString = "572514534.296097"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
@@ -234,7 +180,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CarDetails/Networking/Service/Router.swift"
-            timestampString = "572361334.9577301"
+            timestampString = "572514534.296139"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "51"
@@ -249,13 +195,13 @@
                   symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CarDetails.Router.request&lt;A where A1: Swift.Decodable, A1: Swift.Encodable&gt;(_: A, mapToModel: A1.Type, onSuccess: (A1) -&gt; (), onError: (Swift.Error) -&gt; ()) -&gt; ()"
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shrinivas/Downloads/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572355318.1243401"
+                  urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
+                  timestampString = "572513897.346756"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "1518">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1007">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -264,12 +210,12 @@
                   symbolName = "closure #3 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CarDetails.Router.request&lt;A where A1: Swift.Decodable, A1: Swift.Encodable&gt;(_: A, mapToModel: A1.Type, onSuccess: (A1) -&gt; (), onError: (Swift.Error) -&gt; ()) -&gt; ()"
                   moduleName = "CarDetails"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/shrinivas/Downloads/CarDetails-master/CarDetails/Networking/Service/Router.swift"
-                  timestampString = "572355318.1265759"
+                  urlString = "file:///Users/shrinivas/Documents/CarDetails-master/CarDetails/Networking/Service/Router.swift"
+                  timestampString = "572513897.349241"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
                   offsetFromSymbolStart = "34">
                </Location>
             </Locations>

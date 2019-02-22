@@ -25,7 +25,7 @@ class NetworkLayerTests: XCTestCase {
             let expectedURL = "http://api-aws-eu-qa-1.auto1-test.com/v1/car-types/manufacturer?page=0&pageSize=10&wa_key=coding-puzzle-client-449cc9d"
             XCTAssertEqual(request.url?.absoluteString.sorted(), expectedURL.sorted())
         } catch {
-            
+            XCTFail("URL encoding failed")
         }
         
     }

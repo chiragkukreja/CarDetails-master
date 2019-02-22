@@ -33,7 +33,7 @@ extension CarModelsViewViewController: UITableViewDataSource, UITableViewDelegat
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.lightGray
         } else {
-            cell.backgroundColor = UIColor.gray
+            cell.backgroundColor = UIColor.lightText
         }
         cell.selectionStyle = .none
         if indexPath.row  == viewModel.totalItems - 4 {
@@ -59,6 +59,7 @@ extension CarModelsViewViewController: RouterDelegate {
         }
     }
     func onFetchError() {
-        
+        let action = UIAlertAction.init(title: "OK", style: .default)
+        displayAlert(with: "Error", message: "Unable to get details", actions: [action])
     }
 }
