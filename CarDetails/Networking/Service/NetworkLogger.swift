@@ -36,6 +36,4 @@ class NetworkLogger {
         
         print(logOutput)
     }
-    
-    static func log(response: URLResponse) {}
 }

@@ -10,10 +10,10 @@ import UIKit
 
 class CarManufacturerViewModel: NSObject {
     var delegate: RouterDelegate?
-    let router: Router<CarApi>
+    private let router: Router<CarApi>
     private var page = 0
     private var pageSize = 15
-    private var totalPages = 0
+    private var totalPages = 1
     private var manufactures = [keyValuePair]()
     private var isApiInProgress = false
     var totalItems: Int {
@@ -25,8 +25,9 @@ class CarManufacturerViewModel: NSObject {
     func item(at indexpath: IndexPath) -> keyValuePair {
         return manufactures[indexpath.row]
     }
+    // This function first check  whether current page size is less than the total number of the pages ,then makes an api call to get all the manufacturers and increments the page size
     func getCarManufactures() {
-        guard  !isApiInProgress, page <= totalPages else {return}
+        guard  !isApiInProgress, page < totalPages else {return}
         isApiInProgress = true
         router.request(.manufacturer(page: page, pageSize: pageSize), mapToModel: CarDetails.self, onSuccess: { [weak self] (data) in
             guard let `self` = self else {return}
@@ -46,7 +47,7 @@ class CarManufacturerViewModel: NSObject {
             self.delegate?.onFetchError()
         }
     }
-    
+   // This function will calculate the indexpath of the row which needs to be inserted in tableview
     private func calculateIndexPathsToInsert(from newResults: [keyValuePair]) -> [IndexPath] {
         let startIndex = self.manufactures.count - newResults.count
         let endIndex = startIndex + newResults.count

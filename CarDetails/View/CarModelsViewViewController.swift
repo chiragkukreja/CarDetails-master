@@ -41,7 +41,7 @@ extension CarModelsViewViewController: UITableViewDataSource, UITableViewDelegat
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let action = UIAlertAction.init(title: "OK", style: .default)
-        displayAlert(with: "Selection", message: viewModel.getMessage(indexPath), actions: [action])
+        displayAlert(with: "Selected Car Details", message: viewModel.getMessage(indexPath), actions: [action])
     }
 }
 

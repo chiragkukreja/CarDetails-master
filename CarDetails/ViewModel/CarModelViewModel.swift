@@ -12,7 +12,7 @@ class CarModelViewModel {
     let router: Router<CarApi>
     private var page = 0
     private var pageSize = 15
-    private var totalPages = 0
+    private var totalPages = 1
     private var manufacturer: keyValuePair
     private var carModels = [keyValuePair]()
     private var isApiInProgress = false
@@ -26,8 +26,9 @@ class CarModelViewModel {
     func item(at indexpath: IndexPath) -> keyValuePair {
         return carModels[indexpath.row]
     }
+     // This function first check  whether current page size is less than the total number of the pages ,then makes an api call to get all the manufacturers and increments the page size
     func getCarModels() {
-        guard  !isApiInProgress, page <= totalPages else {return}
+        guard  !isApiInProgress, page < totalPages else {return}
         isApiInProgress = true
         router.request(.model(maufacturerId: manufacturer.id, page: page, pageSize: pageSize), mapToModel: CarDetails.self, onSuccess: { [weak self] (data) in
             guard let `self` = self else {return}
@@ -50,6 +51,7 @@ class CarModelViewModel {
     func getMessage(_ indexPath: IndexPath) -> String {
         return "\(manufacturer.name) - \(item(at: indexPath).name)"
     }
+    // This function will calculate the indexpath of the row which needs to be inserted in tableview
     private func calculateIndexPathsToInsert(from newResults: [keyValuePair]) -> [IndexPath] {
         let startIndex = self.carModels.count - newResults.count
         let endIndex = startIndex + newResults.count

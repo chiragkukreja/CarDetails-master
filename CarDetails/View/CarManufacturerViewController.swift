@@ -12,7 +12,7 @@ class CarManufacturerViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var viewModel: CarManufacturerViewModel!
+    private var viewModel: CarManufacturerViewModel!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Manufacturers"
@@ -50,6 +50,7 @@ extension CarManufacturerViewController: UITableViewDataSource, UITableViewDeleg
 }
 
 extension CarManufacturerViewController: RouterDelegate {
+    // when Api call succeeded this function will called
     func onFetchCompleted(indexpathsToInsert: [IndexPath]?) {
         if let indexpaths = indexpathsToInsert {
             tableView.beginUpdates()
@@ -59,6 +60,7 @@ extension CarManufacturerViewController: RouterDelegate {
             tableView.reloadData()
         }
     }
+    // when Api call failed this function will called
     func onFetchError() {
         let action = UIAlertAction.init(title: "OK", style: .default)
         displayAlert(with: "Error", message: "Unable to get details", actions: [action])
